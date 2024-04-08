@@ -1,0 +1,68 @@
+
+/* ヘッダー */
+h1{
+    font-family: "nicoca";
+    font-size:60px;
+    font-weight:500;
+    line-height:1.5;
+    text-align: left;
+    padding-left: 110px;
+}
+
+p{
+    text-align: left;/* 左寄せ */
+    margin-left: 380px;/* 文字の左に余白 */
+    font-family: "makinas";/* フォント指定 */
+    font-weight: bold;/* 文字の太さ */
+    font-size: 30px;/* 文字サイズ */
+}
+
+/* タイトル */
+.portfolio{
+    background-color:aliceblue;
+}
+
+.portfolio img{
+    width: 777px; /* よこ */
+    height: 210px; /* たて */
+    /* 真ん中に配置 */
+    display: block;
+    margin: auto;
+}
+
+
+/* 自分 */
+.me{
+    background-color:black;/* 背景色 */
+    color: aliceblue;/* 文字の色 */
+    
+}
+
+
+/* 資格 */
+.qualification{
+    background-color:aliceblue;
+    
+}
+
+
+/* スキル */
+.skill{
+    background-color:black;
+    color: aliceblue;/* 文字の色 */
+    
+}
+
+
+/* 作品 */
+.work{
+    background-color:aliceblue;
+    
+}
+
+/* 写真 */
+.photo{
+    background-color: black;
+    color: aliceblue;/* 文字の色 */
+}
+

@@ -1,0 +1,29 @@
+/*========= モーダル表示のためのCSS ===============*/
+
+/*以下はコンテンツ内のレイアウト*/
+.gallery-list{
+	display: flex;
+}
+
+.gallery-list li{
+	margin:0 10px 0 0;
+
+    display: inline-block;
+    padding: 10px 0;
+    width: 400px;
+    height: 400px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+/*========= レイアウトのためのCSS ===============*/
+
+ul{
+	list-style: none;
+    margin-top:20px;
+}
+
+img{
+	max-width: 100%;
+	height: auto;
+}

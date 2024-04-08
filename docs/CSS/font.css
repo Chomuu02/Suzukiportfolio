@@ -1,0 +1,13 @@
+@font-face {
+	font-family: 'nicoca'; /*この名前がfont-familyで指定するフォント名になります*/
+	font-style: normal;
+    font-weight: 700;
+	src: url('../Fonts/nicoca.woff2') format('woff2'); 
+}
+
+@font-face {
+	font-family: 'makinas'; /*この名前がfont-familyで指定するフォント名になります*/
+	font-style: normal;
+    font-weight: bold;
+	src: url('../Fonts/Makinas-4-Square.woff2') format('woff2'); 
+}

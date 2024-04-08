@@ -1,0 +1,64 @@
+/* スライダーの各画像にホバーしたら画像が拡大するCSS */
+
+.work .sliderimg1 {
+    transition:transform 0.3s;
+}
+.work .sliderimg1:hover {
+    transform:scale(1.1);
+}
+
+.work .sliderimg2 {
+    transition:transform 0.3s;
+}
+.work .sliderimg2:hover {
+    transform:scale(1.1);
+}
+
+.work .sliderimg3 {
+    transition:transform 0.3s;
+}
+.work .sliderimg3:hover {
+    transform:scale(1.1);
+}
+
+.work .sliderimg4 {
+    transition:transform 0.3s;
+}
+.work .sliderimg4:hover {
+    transform:scale(1.1);
+}
+
+.work .sliderimg5 {
+    transition:transform 0.3s;
+}
+.work .sliderimg5:hover {
+    transform:scale(1.1);
+}
+
+.work .sliderimg6 {
+    transition:transform 0.3s;
+}
+.work .sliderimg6:hover {
+    transform:scale(1.1);
+}
+
+.work .sliderimg7 {
+    transition:transform 0.3s;
+}
+.work .sliderimg7:hover {
+    transform:scale(1.1);
+}
+
+.work .sliderimg8 {
+    transition:transform 0.3s;
+}
+.work .sliderimg8:hover {
+    transform:scale(1.1);
+}
+
+.work .sliderimg9 {
+    transition:transform 0.3s;
+}
+.work .sliderimg9:hover {
+    transform:scale(1.1);
+}

@@ -1,0 +1,74 @@
+.image{
+    position: relative;
+        width: 500px; /* 任意 */
+        height: 0px; /* 任意 */
+}
+
+/* 画像をぼかしてテキストを表示 */
+.c-bnr,
+.c-txt {
+  cursor: pointer;
+  transition: .2s cubic-bezier(0.45, 0, 0.55, 1);
+}
+ 
+/* 画像バナー基本コード */
+.c-bnr{
+  background: url(../IMAGE/Me01.jpg)no-repeat center center / cover;
+  display: inline-block;
+  width: 340px;
+  height: 340px;
+  top: -150px;
+  left: 1100px;
+}
+
+/* ブラー＋テキスト */
+.c-bnr.practice04,
+.c-bnr.practice04::before,
+.c-bnr.practice04::after {
+  transition-timing-function: cubic-bezier(0.33, 1, 0.68, 1);
+}
+.c-bnr.practice04 {
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+.c-bnr.practice04::before,
+.c-bnr.practice04::after {
+  display: block;
+  opacity: 0;
+  position: absolute;
+}
+.c-bnr.practice04::before {
+  background: inherit;
+  content: "";
+  filter: blur(3px);
+  top: -3px;
+  left: -3px;
+  right: -3px;
+  bottom: -3px;
+  z-index: -1;
+  transition-duration: 0.4s;
+}
+.c-bnr.practice04::after {
+  color: #fff;
+  content: "Read More";
+  font-size: 22px;
+  font-weight: bold;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transition-duration: 0.2s;
+}
+.c-bnr.practice04:hover::after {
+  transition-delay: .5s;
+}
+.c-bnr.practice04:hover::before,
+.c-bnr.practice04:hover::after {
+  opacity: 1;
+}
